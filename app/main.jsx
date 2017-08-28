@@ -24,7 +24,7 @@ const AppContainer = connect(
   ({ user, children }) =>
     <div>
       <nav>
-        {user ? <WhoAmI/> : <Login/>}
+        {user ? <WhoAmI/> : null}
       </nav>
       {children}
     </div>
@@ -36,6 +36,7 @@ render(
       <Route path="/" component={AppContainer}>
         <IndexRedirect to="/hello" />
         <Route path="/hello" component={Landing} />
+        <Route path="/login" component={Login} />
       </Route>
       <Route path='*' component={NotFound} />
     </Router>
