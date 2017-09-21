@@ -10,7 +10,7 @@ export default () => (
       <p><a href='https://github.com/align-capstone/align'>Align</a> is a web app for setting, tracking, and visualizing long term goals. I worked on this project over the course of 3 weeks as my Grace Hopper capstone project.</p>
       <p>Align was created using Node.js, React, Firebase, D3, and Material UI. <a href='https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c'>Learn more about the process of creating this app.</a></p>
       <div className="videoWrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/YacM6uYP2Jo" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YacM6uYP2Jo" frameBorder="0" allowFullScreen></iframe>
       </div>
     </div>
     <div className='project-block'>
@@ -30,7 +30,7 @@ export default () => (
       <h3>Periodic Videos</h3>
       <p><a href='https://ed.ted.com/periodic-videos'>An interactive periodic table</a> that contians a lesson about each element. I built the interface for this page using jQuery.</p>
       <div className="videoWrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/9xZU5lJFbos" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9xZU5lJFbos" frameBorder="0" allowFullScreen></iframe>
       </div>
     </div>
     <div className='project-block'>
