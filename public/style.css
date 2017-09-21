@@ -27,6 +27,10 @@ body {
   color: #fff;
 }
 
+img {
+  width: 100%;
+}
+
 p {
   font-weight: lighter;
   line-height: 24px;
@@ -41,6 +45,10 @@ a, a:hover, a:visited, a:active {
 
 a:hover {
   color: #9c004c;
+}
+
+a.small-link {
+  font-size: 12px;
 }
 
 button {
@@ -70,4 +78,30 @@ button:active, button:focus {
 
 i {
   margin-right: 20px;
+}
+
+.project-block {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 10px 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.project-block h3 {
+  margin-top: 0px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  max-width: 100%;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
