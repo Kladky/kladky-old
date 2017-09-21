@@ -20,10 +20,12 @@ export default () => (
       <p>I built <a href='https://github.com/Kladky/Scopes'>this project</a> for a hackathon using Node.js, Express, React, Twitter API, and RiTa.js.</p>
       <img src='/images/scopes.png' />
     </div>
-    { /*<div className='project-block'>
-      <h3>Grace Shopper</h3>
-      <p>A simple ecommerce site built over the course of a week during the Grace Hopper program using Node.js, Express, React, Redux, OAuth, Sequelize, and Bootstrap.</p>
-    </div> */ }
+    {
+      /*<div className='project-block'>
+        <h3>Grace Shopper</h3>
+        <p>A simple ecommerce site built over the course of a week during the Grace Hopper program using Node.js, Express, React, Redux, OAuth, Sequelize, and Bootstrap.</p>
+      </div> */
+    }
     <div className='project-block'>
       <h3>TED-Ed + YouTube extension</h3>
       <p>A <a href='https://chrome.google.com/webstore/detail/ted-ed-youtube-plugin/pniiaccgccaflajjpljlnmphipdbbgfg'>Chrome extension</a> that allows users to create an interactive TED-Ed Lesson page with any video from Youtube via a button that appears under YouTube videos.</p>
