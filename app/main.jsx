@@ -15,6 +15,7 @@ import {connect, Provider} from 'react-redux'
 import store from './store'
 import Landing from './components/Landing'
 import Login from './components/Login'
+import Projects from './components/Projects'
 import WhoAmI from './components/WhoAmI'
 import NotFound from './components/NotFound'
 
@@ -37,6 +38,7 @@ render(
         <IndexRedirect to="/hello" />
         <Route path="/hello" component={Landing} />
         <Route path="/login" component={Login} />
+        <Route path="/projects" component={Projects} />
       </Route>
       <Route path='*' component={NotFound} />
     </Router>
