@@ -15,7 +15,7 @@ export default () => (
     </div>
     <div className='project-block'>
       <h3>Scopes</h3>
-      <p><a href='https://twitterscopes.herokuapp.com/'>A simple horoscope generator</a> using Markov chains and source text from the Twitter API. I was interested in the way that people project personal meaning onto generic sentiments, and I wanted to see if I could collage tweets together into passible horoscope texts.</p>
+      <p><a href='http://scopes.kladky.tech/'>A simple horoscope generator</a> using Markov chains and source text from the Twitter API. I was interested in the way that people project personal meaning onto generic sentiments, and I wanted to see if I could collage tweets together into passible horoscope texts.</p>
       <p>The app has two views. First, a live tweet view that searches twitter when the page is loaded and selects three tweets that meet my criteria for horoscope tweets. Second, a extended horoscope view that uses a dataset of previously selected tweets to compose a longer horoscope text using a markov chain.</p>
       <p>I built <a href='https://github.com/Kladky/Scopes'>this project</a> for a hackathon using Node.js, Express, React, Twitter API, and RiTa.js.</p>
       <img src='/images/scopes.png' />
